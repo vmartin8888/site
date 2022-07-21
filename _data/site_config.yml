@@ -1,4 +1,4 @@
-ï»¿analytics:
+analytics:
   ua: ''
   gtag: ''
   gtm: ''
@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Aragón
+  adjective: Aragonés
 create_goals:
   previous_next_links: false
   goals: []
@@ -55,9 +55,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: 'test@example.com'
+  suggestions: 'test@example.com'
+  functional: 'test@example.com'
 environment: staging
 footer_language_toggle: none
 footer_menu:
@@ -204,7 +204,7 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://open-sdg.org/open-sdg-data-starter'
+remote_data_prefix: 'https://vmartin8888.github.io/data/'
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -219,8 +219,8 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/open-sdg/open-sdg-data-starter'
-repository_url_site: ''
+repository_url_data: 'https://vmartin8888.github.io/data/'
+repository_url_site: 'https://github.com/vmartin8888/site'
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
