@@ -47,8 +47,8 @@ custom_js:
   - /assets/js/custom.js
 data_edit_url: data
 data_fields:
-  units: ''
-  series: ''
+  units: 'Units'
+  series: 'Series'
 date_formats: []
 disclaimer:
   phase: ''
