@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Aragon
-  adjective: Aragones
+  name: 'Aragón'
+  adjective: 'Aragonés'
 create_goals:
   previous_next_links: false
   goals: []
@@ -47,8 +47,8 @@ custom_js:
   - /assets/js/custom.js
 data_edit_url: data
 data_fields:
-  units: 'Units'
-  series: 'Series'
+  units: ''
+  series: ''
 date_formats: []
 disclaimer:
   phase: ''
@@ -61,13 +61,13 @@ email_contacts:
 environment: staging
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
+  - path: '/contact-us'
     translation_key: menu.contact_us
   - path: 'https://twitter.com/MyTwitterAccount'
     translation_key: general.twitter
   - path: 'https://facebook.com/MyFacebookAccount'
     translation_key: general.facebook
-  - path: /about/cookies-and-privacy/
+  - path: '/about/cookies-and-privacy/'
     translation_key: menu.cookies
 frontpage_cards:
   - title: frontpage.download_all
