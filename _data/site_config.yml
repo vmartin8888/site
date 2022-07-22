@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Aragon
-  adjective: Aragones
+  name: Aragón
+  adjective: Aragonés
 create_goals:
   previous_next_links: false
   goals: []
@@ -131,7 +131,7 @@ indicator_metadata_form:
     - national
     - global
   exclude_fields: []
-  translated: false
+  translated: true
 indicator_tabs:
   tab_1: ''
   tab_2: ''
