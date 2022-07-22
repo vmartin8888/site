@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: 'Aragon'
-  adjective: 'Aragones'
+  name: 'Aragón'
+  adjective: 'Aragonés'
 create_goals:
   previous_next_links: false
   goals: []
@@ -47,8 +47,8 @@ custom_js:
   - /assets/js/custom.js
 data_edit_url: data
 data_fields:
-  units: ''
-  series: ''
+  units: 'Units'
+  series: 'Serie'
 date_formats: []
 disclaimer:
   phase: ''
@@ -108,13 +108,13 @@ graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
-graph_title_from_series: false
+graph_title_from_series: true
 header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
 indicator_config_form:
-  enabled: true
+  enabled: false
   dropdowns: []
   repository_link: /tree/develop/indicator-config
   translation_link: ''
@@ -131,7 +131,7 @@ indicator_metadata_form:
     - national
     - global
   exclude_fields: []
-  translated: false
+  translated: true
 indicator_tabs:
   tab_1: ''
   tab_2: ''
@@ -204,7 +204,7 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://vmartin8888.github.io/data/'
+remote_data_prefix: 'https://vmartin8888.github.io/data'
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -219,7 +219,7 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://vmartin8888.github.io/data/'
+repository_url_data: 'https://vmartin8888.github.io/data'
 repository_url_site: 'https://github.com/vmartin8888/site'
 search_index_boost: []
 search_index_extra_fields: []
