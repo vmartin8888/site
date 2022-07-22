@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Aragon
-  adjective: Aragones
+  name: Aragón
+  adjective: Aragonés
 create_goals:
   previous_next_links: false
   goals: []
@@ -108,13 +108,13 @@ graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
-graph_title_from_series: false
+graph_title_from_series: true
 header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
 hide_single_unit: true
 indicator_config_form:
-  enabled: true
+  enabled: false
   dropdowns: []
   repository_link: /tree/develop/indicator-config
   translation_link: ''
@@ -138,8 +138,8 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - en
   - es
+  - en
 languages_public: []
 logos: []
 map_layers: []
