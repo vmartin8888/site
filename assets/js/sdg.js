@@ -1126,13 +1126,13 @@ var indicatorModel = function (options) {
  * Constants to be used in indicatorModel.js and helper functions.
  */
 var UNIT_COLUMN = 'Units';
-var SERIES_COLUMN = 'Series';
+var SERIES_COLUMN = 'Serie';
 var GEOCODE_COLUMN = 'GeoCode';
 var YEAR_COLUMN = 'Year';
 var VALUE_COLUMN = 'Value';
 // Note this headline color is overridden in indicatorView.js.
 var HEADLINE_COLOR = '#777777';
-var GRAPH_TITLE_FROM_SERIES = false;
+var GRAPH_TITLE_FROM_SERIES = true;
 
   /**
  * Model helper functions with general utility.
@@ -5485,7 +5485,7 @@ $(function() {
             this.form = null;
             this.currentDisaggregation = 0;
             this.displayedDisaggregation = 0;
-            this.seriesColumn = 'Series';
+            this.seriesColumn = 'Serie';
             this.unitsColumn = 'Units';
             this.displayForm = false;
             this.updateDisaggregations();
