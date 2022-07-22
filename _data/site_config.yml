@@ -55,9 +55,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: 'test@example.com'
-  suggestions: 'test@example.com'
-  functional: 'test@example.com'
+  questions: ''
+  suggestions: ''
+  functional: ''
 environment: staging
 footer_language_toggle: none
 footer_menu:
