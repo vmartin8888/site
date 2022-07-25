@@ -138,7 +138,7 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - en
+  #- en
   - es
 languages_public: []
 logos: []
