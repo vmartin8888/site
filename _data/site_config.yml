@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Aragón
+  adjective: Aragonés
 create_goals:
   previous_next_links: false
   goal_content_heading: ''
@@ -50,15 +50,21 @@ data_edit_url: data
 data_fields:
   units: ''
   series: ''
-date_formats: []
+date_formats:
+  - type: standard
+    language: es
+    format: '''%d de %b de %Y'''
+  - type: standard
+    language: en
+    format: '''%b %d, %Y'''
 disclaimer:
   phase: ''
   message: ''
-  hidden: false
+  hidden: true
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: iaest@aragon.es
+  suggestions: iaest@aragon.es
+  functional: iaest@aragon.es
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
@@ -66,10 +72,6 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
@@ -108,10 +110,10 @@ goals_page:
   description: goal.description
 graph_color_headline: '#004466'
 graph_color_headline_high_contrast: '#55a6e5'
-graph_color_set: accessible
+graph_color_set: goal
 graph_color_list: []
 graph_color_number: 0
-graph_title_from_series: false
+graph_title_from_series: true
 header_language_toggle: dropdown
 hide_empty_metadata: true
 hide_single_series: true
@@ -142,7 +144,6 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - en
   - es
 languages_public: []
 logos: []
@@ -240,4 +241,4 @@ time_series_attributes:
     label: metadata_fields.national_data_update_url
 validate_indicator_config: false
 validate_site_config: false
-x_axis_label: ''
+x_axis_label: Años
