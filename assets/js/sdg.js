@@ -1175,7 +1175,7 @@ $(document).ready(function() {
     });
 });
 opensdg.chartColors = function(indicatorId) {
-  var colorSet = "accessible";
+  var colorSet = "goal";
   var numberOfColors = 0;
   var customColorList = [];
 
@@ -1226,7 +1226,7 @@ var YEAR_COLUMN = 'Year';
 var VALUE_COLUMN = 'Value';
 // Note this headline color is overridden in indicatorView.js.
 var HEADLINE_COLOR = '#777777';
-var GRAPH_TITLE_FROM_SERIES = false;
+var GRAPH_TITLE_FROM_SERIES = true;
 
   /**
  * Model helper functions with general utility.
