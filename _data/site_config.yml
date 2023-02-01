@@ -53,10 +53,10 @@ data_fields:
 date_formats:
   - type: standard
     language: es
-    format: '''%d de %b de %Y'''
+    format: '%d de %b de %Y'
   - type: standard
     language: en
-    format: '''%b %d, %Y'''
+    format: '%b %d, %Y'
 disclaimer:
   phase: ''
   message: ''
