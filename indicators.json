@@ -670,6 +670,22 @@
           "status": "notstarted"
         },
         {
+          "id": "5-a-1a",
+          "title": "global_indicators.5-a-1a-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/5-a-1a/",
+          "status": "complete"
+        },
+        {
+          "id": "5-a-1b",
+          "title": "global_indicators.5-a-1b-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/5-a-1b/",
+          "status": "complete"
+        },
+        {
           "id": "5-b-1",
           "title": "Proporción de personas que poseen un teléfono móvil, desglosada por sexo",
           "description": "",
