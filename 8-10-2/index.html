@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="es" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://vmartin8888.github.io/data/en',
+  remoteDataBaseUrl: 'https://vmartin8888.github.io/data/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -42,7 +42,7 @@ var opensdg = {
   // Disaggregations which should be ignored on indicator pages.
   ignoredDisaggregations: [],
 
-  language: 'en',
+  language: 'es',
 
   mapColors: {
     "default": [
@@ -119,9 +119,9 @@ var translations = {
         
     <title>
         
-        Indicator 8.10.2 -
+        Indicador 8.10.2 -
         
-        Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider - Indicators For The Sustainable Development Goals
+        Proporción de adultos (a partir de 15 años de edad) que tienen una cuenta en un banco u otra institución financiera o un proveedor de servicios de dinero móvil - Indicadores para los Objetivos de Desarrollo Sostenible
     </title>
 
 
@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240718090229">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240718092305">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -166,17 +166,17 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-es
 layout-indicator
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","hide_menu":"Hide navigation menu","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","logo_title":"Go to homepage","show_menu":"Show navigation menu","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_contacts.suggestions\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","hide_menu":"Ocultar el menú de navegación","high_contrast":"Alto contraste","internet_explorer_message":"Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.","internet_explorer_message_title":"Este navegador de Internet ya no es compatible","logo_title":"Ir a la página de inicio","show_menu":"Mostrar el menú de navegación","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Alternar menú. Haga clic para expandir o contraer el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
 <div class="container internet-explorer-message">
-    <h2 class="internet-explorer-message-title">This internet browser is no longer supported</h2>
-    <p class="internet-explorer-message-body">We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.</p>
+    <h2 class="internet-explorer-message-title">Este navegador de Internet ya no es compatible</h2>
+    <p class="internet-explorer-message-body">Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.</p>
 </div>
 <div id="disclaimer">
     
@@ -185,36 +185,36 @@ layout-indicator
 <header role="banner" class="">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/site/" id="home" aria-label="Go to homepage" title="Go to homepage">
-    <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+            <a class="navbar-brand" href="/site/" id="home" aria-label="Ir a la página de inicio" title="Ir a la página de inicio">
+    <img src="/site/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
 </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Show navigation menu">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Mostrar el menú de navegación">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site/">Home</a>
+    <a class="nav-link" href="/site/">Inicio</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/goals">Goals</a>
+    <a class="nav-link" href="/site/goals">Objetivos</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/site/reporting-status">Estado de informes</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/news">Updates</a>
+    <a class="nav-link" href="/site/news">Actualizaciones</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/faq">FAQ</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site/about">About</a>
+    <a class="nav-link" href="/site/about">Acerca de</a>
 </li></ul>
     
                 </div>
                 <div class="header-search-bar">
                     <form class="align-self-lg-end" id="search" action="/site/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <label class="visually-hidden" for="indicator_search">Buscar</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Buscar">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Site search" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Buscar en el sitio" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -222,37 +222,7 @@ layout-indicator
 </form>
 
                 </div>
-                <div class="header-toggles d-flex">
-
-
-
-
-
-  <div class="language-toggle-container">
-  
-  <div class="btn-group language-toggle-dropdown  dropdown">
-    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="fa fa-globe"></i>
-      English
-    </button>
-    <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site/es/8-10-2/">
-              Español
-            </a>
-          </li></ul>
-  </div>
-</div>
-
-
-
-                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
-    <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
-            <a class="language-toggle-link" href="/site/es/8-10-2/">
-                Español
-            </a>
-        </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+                <div class="header-toggles d-flex"><a title="Habilitar alto contraste" aria-label="Habilitar alto contraste"
     data-contrast-switch-to="" role="button" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -282,15 +252,15 @@ data-event-label="high"
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Mostrar subcategorías: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Subcategorías - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Select all</button>
-            <button data-type="clear">Clear all</button>
+            <button data-type="select">Seleccionar todo</button>
+            <button data-type="clear">Limpiar todo</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -301,10 +271,10 @@ data-event-label="high"
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Disponible cuando se selecciona «<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>»
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          No options available because of filters above
+          No hay opciones disponibles debido a los filtros anteriores
         </div>
       <% }%>
 
@@ -316,9 +286,9 @@ data-event-label="high"
   
   <% if(units.length > 1) { %>
   
-    <h4>Unit of Measurement</h4>
+    <h4>Unidad de medida</h4>
     <fieldset>
-      <legend class="sr-only">Unit of Measurement</legend>
+      <legend class="sr-only">Unidad de medida</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -333,9 +303,9 @@ data-event-label="high"
   
   <% if(serieses.length > 1) { %>
   
-    <h4>Series</h4>
+    <h4>Serie</h4>
     <fieldset>
-      <legend class="sr-only">Series</legend>
+      <legend class="sr-only">Serie</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var isProxy = (proxySerieses.includes(seriesItem)) %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
@@ -347,9 +317,9 @@ data-event-label="high"
   
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_series_break":"Series break","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","announce_series_switched":"Chart and table updated to show a different series.","announce_unit_switched":"Chart and table updated to show a different unit.","apply":"Apply","cancel":"Cancel","change_breakdowns":"Change breakdowns","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download chart data (.csv)","download_chart_image":"Download chart image (.png)","download_chart_image_title":"Download chart image as PNG","download_csv":"Download data (.csv)","download_csv_title":"Download data as CSV","download_geojson":"Download map data (.geojson)","download_geojson_title":"Download map data as GeoJSON","download_headline":"Download headline data (.csv)","download_headline_title":"Download headline data as CSV","download_source":"Download source data (.csv)","download_source_for_disaggregations":"Download source data for disaggregations (.csv)","download_source_sdmx":"Download source SDMX (.xml)","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download table data (.csv)","edit":"Edit Indicator","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","empty_metadata_placeholder":"Not available for this indicator","empty_metadata_placeholder_sources":"Not available for this source","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","headline_data":"Headline data","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_fullscreen":"View map fullscreen","map_fullscreen_exit":"Exit fullscreen map","map_search":"Map search","map_search_cancel":"Clear map search","map_search_hide":"Hide map search","map_search_show":"Show map search","map_slider_back":"View map data for previous time period","map_slider_forward":"View map data for next time period","map_slider_keyboard":"View map data throughout time period by using left and right arrow keys","map_slider_mouse":"Navigate map data by time period","map_year_slider":"Year slider","map_zoom_home":"Reset to default map zoom","map_zoom_in":"Zoom in on map","map_zoom_out":"Zoom out on map","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country.name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country.adjective statistics, this table should be consulted for information on national methodology and other %country.adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","no_headline_data":"No headline data available","note":"note","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","proxy":"Proxy","proxy_description":"This indicator contains some alternative data to those specified by the United Nations (UN). This indicator is the most suitable match currently available.","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","total":"Total","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"Objetivo del indicador para 2030","annotation_series_break":"Ruptura de la serie","announce_data_added":"Gráfico y tabla actualizados para incluir los datos.","announce_data_not_available":"La tabla y el gráfico no muestran datos.","announce_data_removed":"Gráfico y tabla actualizados para excluir los datos.","announce_series_switched":"Gráfico y tabla actualizados para mostrar una serie diferente.","announce_unit_switched":"Gráfico y tabla actualizados para mostrar una unidad diferente.","apply":"Aplicar","cancel":"Cancelar","change_breakdowns":"Cambiar los desgloses","chart":"Gráfico","chart_annotation":"Anotación en un gráfico","clear_all":"Limpiar todo","clear_selections":"Borrar selecciones","data_keyboard_navigation":"Pulse Enter para navegar por los puntos de datos con las teclas de flecha izquierda y derecha.","data_not_available":"Esta información no está disponible. Elija datos alternativos para mostrar.","data_tabular_alternative":"Para la alternativa de datos en forma de tabla, véase la pestaña Tabla.","dataset_size_warning":"Hay demasiados conjuntos de datos para mostrar en el gráfico. No todo se mostrará hasta que elimine algunas selecciones.","download_chart":"Descargar los datos del gráfico (.csv)","download_chart_image":"Descargar la imagen del gráfico (.png)","download_chart_image_title":"Descargar la imagen del gráfico como PNG","download_csv":"Descargar los datos (.csv)","download_csv_title":"Descargar los datos como CSV","download_geojson":"Descargar los datos del mapa (.geojson)","download_geojson_title":"Descargar los datos del mapa como GeoJSON","download_headline":"Descargar los datos de los titulares (.csv)","download_headline_title":"Descargar datos globales como CSV","download_source":"Descargar datos de origen (.csv)","download_source_for_disaggregations":"Descargar los datos de origen para los desgloses (.csv)","download_source_sdmx":"Descargar el código fuente SDMX (.xml)","download_source_sdmx_title":"Descargar los datos fuente como SDMX","download_source_title":"Descargar los datos fuente como CSV","download_table":"Descargar los datos de la tabla (.csv)","edit":"Editar el indicador","edit_configuration":"Editar la configuración","edit_data":"Editar datos","edit_metadata":"Editar metadatos","empty_metadata_placeholder":"No disponible para este indicador","empty_metadata_placeholder_sources":"No disponible para esta fuente","footnote":"Nota","geographical_area":"Área geográfica","global_metadata":"Metadatos globales","global_metadata_blurb":"Esta tabla proporciona información sobre los metadatos para los indicadores de los ODS tal como los define la Comisión de Estadística de la ONU. La <a href=\"https://unstats.un.org/sdgs/metadata/\">División de Estadística de las Naciones Unidas proporciona</a> los metadatos globales completos .","headline_data":"Datos principales","legend_help":"Haga clic en la leyenda para eliminar líneas individuales del gráfico.","loading":"Cargando","loading_map":"Cargando mapa","map":"Mapa","map_fullscreen":"Ver mapa a pantalla completa","map_fullscreen_exit":"Salir del mapa a pantalla completa","map_search":"Búsqueda en el mapa","map_search_cancel":"Borrar búsqueda en el mapa","map_search_hide":"Ocultar la búsqueda en los mapas","map_search_show":"Mostrar búsqueda en el mapa","map_slider_back":"Ver datos de los mapas para el período de tiempo anterior","map_slider_forward":"Ver los datos del mapa para el siguiente periodo de tiempo","map_slider_keyboard":"Vea los datos del mapa a lo largo del periodo de tiempo utilizando las teclas de flecha izquierda y derecha","map_slider_mouse":"Navegar por los datos del mapa por periodo de tiempo","map_year_slider":"Deslizador del año","map_zoom_home":"Restablecer el zoom predeterminado del mapa","map_zoom_in":"Zoom en el mapa","map_zoom_out":"Reducir el mapa","national_metadata":"Metadatos nacionales","national_metadata_blurb":"Esta tabla proporciona metadatos para el indicador real disponible a partir de las estadísticas de %country.name más cercanas al correspondiente indicador global de SDG. Tenga en cuenta que incluso cuando el indicador global de ODS esté totalmente disponible a partir de las estadísticas de %country.adjective, se debe consultar esta tabla para obtener información sobre la metodología nacional y otra información de metadatos específicos de %country.adjective.","next":"Siguiente indicador","no_data_hint":"No hay opciones disponibles debido a los filtros anteriores","no_headline_data":"No hay datos principales disponibles","note":"nota","plot_legend_description":"Leyenda del gráfico: lista de líneas incluidas en el gráfico","previous":"Indicador anterior","proxy":"Proxy","proxy_description":"Este indicador contiene algunos datos alternativos a los especificados por la Organización de las Naciones Unidas (ONU). Este indicador es la coincidencia más adecuada disponible actualmente.","select_all":"Seleccionar todo","series":"Serie","series_help":"Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.","source":"Fuente","sources":"Fuentes","status":"Estado del indicador","sub_categories":"Subcategorías","sub_categories_show":"Mostrar subcategorías:","table":"Tabla","table_column_sort":"Pulse para ordenar por esta columna","tags":"Etiquetas","total":"Total","unit":"Unidad","unit_of_measurement":"Unidad de medida","units_type":"Tipo de unidades","variable_hint":"Disponible cuando se selecciona «%field»","view_indicator_list":"Ver la lista de indicadores de este objetivo"};</script>
 
-<script>translations['data'] = {"Year":"Year"};</script>
+<script>translations['data'] = {"Year":"Año"};</script>
 
 
 <div class="container">
@@ -358,17 +328,17 @@ data-event-label="high"
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         
         <li class="breadcrumb-item">
-            <a href="/site/">Home</a>
+            <a href="/site/">Inicio</a>
         </li>
         <li class="breadcrumb-item">
-            <a href="/site/goals">Goals</a>
+            <a href="/site/goals">Objetivos</a>
         </li>
         
         <li class="breadcrumb-item">
             <a href="/site/8/"
-               title="Goal 8 - Decent work and economic growth"
-               aria-label="Goal  - ">
-               Goal 8
+               title="Objetivo 8 - Trabajo decente y crecimiento económico"
+               aria-label="Objetivo  - ">
+               Objetivo 8
             </a>
         </li>
         
@@ -383,9 +353,9 @@ data-event-label="high"
         <div class="row">
             
             <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-                <a href="/site/8/" aria-label="View targets and indicators for Goal 8" title="View targets and indicators for Goal 8">
-                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/8.png"
-                        alt="Decent work and economic growth - Goal 8"
+                <a href="/site/8/" aria-label="Ver las metas e indicadores del Objetivo 8" title="Ver las metas e indicadores del Objetivo 8">
+                    <img src="https://open-sdg.org/sdg-translations/assets/img/goals/es/8.png"
+                        alt="Trabajo decente y crecimiento económico - Objetivo 8"
                         id="goal-8"
                         class="goal-icon-image goal-icon-image-" />
                 </a>
@@ -395,9 +365,9 @@ data-event-label="high"
                 <div>
                     <h1>
                         
-                        Indicator 8.10.2
+                        Indicador 8.10.2
                         
-                        <span class="lead-copy">Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider</span>
+                        <span class="lead-copy">Proporción de adultos (a partir de 15 años de edad) que tienen una cuenta en un banco u otra institución financiera o un proveedor de servicios de dinero móvil</span>
                     </h1>
                 </div>
             </div>
@@ -425,7 +395,7 @@ data-event-label="high"
   data-indicatorid='indicator_8-10-2'
   data-id="8-10-2"
   data-country="Aragón"
-  data-charttitle="Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider"
+  data-charttitle="Proporción de adultos (a partir de 15 años de edad) que tienen una cuenta en un banco u otra institución financiera o un proveedor de servicios de dinero móvil"
   data-charttitles="[]"
   data-measurementunit=""
   data-xaxislabel="Años"
@@ -441,7 +411,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Año&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -472,7 +442,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.national_metadata tab"
 
-            >National Metadata</button>
+            >Metadatos nacionales</button>
         </li>
     
         
@@ -493,7 +463,7 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.global_metadata tab"
 
-            >Global Metadata</button>
+            >Metadatos globales</button>
         </li>
     
         
@@ -514,13 +484,13 @@ data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to indicator.sources tab"
 
-            >Sources</button>
+            >Fuentes</button>
         </li>
     
     
     
         <li role="presentation" class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit Indicator</a>
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Editar el indicador</a>
         </li>
     
 </ul>
@@ -538,7 +508,7 @@ data-event-label="Change to indicator.sources tab"
         
         <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                <p>This table provides metadata for the actual indicator available from Aragón statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Aragonés statistics, this table should be consulted for information on national methodology and other Aragonés-specific metadata information.</p>
+                <p>Esta tabla proporciona metadatos para el indicador real disponible a partir de las estadísticas de Aragón más cercanas al correspondiente indicador global de SDG. Tenga en cuenta que incluso cuando el indicador global de ODS esté totalmente disponible a partir de las estadísticas de Aragonés, se debe consultar esta tabla para obtener información sobre la metodología nacional y otra información de metadatos específicos de Aragonés.</p>
 
                 <table class="table metadata-content">
   <tbody>
@@ -842,7 +812,7 @@ data-event-label="Change to indicator.sources tab"
         
         <div role="tabpanel" class="tab-pane " id="global">
             <article>
-                <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+                <p>Esta tabla proporciona información sobre los metadatos para los indicadores de los ODS tal como los define la Comisión de Estadística de la ONU. La <a href="https://unstats.un.org/sdgs/metadata/">División de Estadística de las Naciones Unidas proporciona</a> los metadatos globales completos .</p>
 
                 <table class="table metadata-content">
   <tbody>
@@ -852,7 +822,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Indicator </th>
+        <th scope="row">Indicador </th>
         <td>
           
             <p>Indicator 8.10.2: Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider </p>
@@ -868,7 +838,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Target </th>
+        <th scope="row">Meta </th>
         <td>
           
             <p>Target 8.10: Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all</p>
@@ -884,7 +854,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Metadata update </th>
+        <th scope="row">Actualización de metadatos </th>
         <td>
           
             <p>2023-03-31</p>
@@ -900,7 +870,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">International organisations(s) responsible for global monitoring </th>
+        <th scope="row">Organizaciones internacionales responsables del seguimiento global </th>
         <td>
           
             <p>World Bank </p>
@@ -916,7 +886,7 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
-        <th scope="row">Related indicators </th>
+        <th scope="row">Indicadores relacionados </th>
         <td>
           
             <p>Not applicable</p>
@@ -1082,15 +1052,15 @@ data-event-label="Change to indicator.sources tab"
   
 
 
-  <a class="btn btn-primary" href="data">Edit Data</a>
+  <a class="btn btn-primary" href="data">Editar datos</a>
   
 
   
-  <a class="btn btn-primary" href="metadata">Edit Metadata</a>
+  <a class="btn btn-primary" href="metadata">Editar metadatos</a>
   
 
   
-  <a class="btn btn-primary" href="config">Edit Configuration</a>
+  <a class="btn btn-primary" href="config">Editar la configuración</a>
   
 
 </div>
@@ -1103,7 +1073,7 @@ data-event-label="Change to indicator.sources tab"
   </div>
 </div>
 
-  <a href="#top">Back to top</a>
+  <a href="#top">Volver arriba</a>
 </div>
 
 <footer role="contentinfo">
@@ -1113,25 +1083,15 @@ data-event-label="Change to indicator.sources tab"
                 <div id="footerLinks">
                     <ul>
                         <li>
-                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                            <a href="https://open-sdg.org">Construido usando Open SDG</a>
                         </li>
                         
                         <li>
-                            <a href="/site/contact-us">Contact us</a>
+                            <a href="/site/contact-us">Contáctenos</a>
                             
                         </li>
                         <li>
-                            
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                            
-                        </li>
-                        <li>
-                            <a href="/site/about/cookies-and-privacy/">Cookies</a>
+                            <a href="/site/about/cookies-and-privacy/">Galletas</a>
                             
                         </li>
                         
@@ -1164,23 +1124,186 @@ data-event-label="Change to indicator.sources tab"
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 
 
+<script>
+  
+
+
+var klaroConfig = {
+    version: 1,
+    elementID: 'klaro',
+    styling: {
+        theme: ['light', 'top', 'wide'],
+    },
+    noAutoLoad: false,
+    htmlTexts: false,
+    embedded: false,
+    groupByPurpose: true,
+    storageMethod: 'cookie',
+    cookieName: 'cookie_settings',
+    cookieExpiresAfterDays: 365,
+    default: false,
+    mustConsent: false,
+    acceptAll: true,
+    hideDeclineAll: false,
+    hideLearnMore: false,
+    noticeAsModal: false,
+    services: [
+        {
+            name: 'contrast',
+            default: true,
+            purposes: ['functional'],
+            cookies: ['contrast'],
+            required: true,
+            optOut: false,
+            onlyOnce: true,
+        },
+        {
+            name: 'cookie_settings',
+            default: true,
+            purposes: ['functional'],
+            cookies: ['cookie_settings'],
+            required: true,
+            optOut: false,
+            onlyOnce: true,
+        },
+        
+        {
+            name: 'google-analytics',
+            default: false,
+            purposes: ['analytics'],
+            
+            cookies: ['_gat', '_gid', '_ga'],
+            
+            required: false,
+            optOut: false,
+            onlyOnce: false,
+        },
+        
+    ],
+};
+
+  klaroConfig.lang = 'es';
+klaroConfig.translations = {
+    es: {
+        acceptAll: null,
+        acceptSelected: null,
+        close: null,
+        consentModal: {
+            description: null,
+            title: null,
+        },
+        consentNotice: {
+            changeDescription: null,
+            description: null,
+            learnMore: null,
+            testing: null,
+        },
+        contextualConsent: {
+            acceptAlways: null,
+            acceptOnce: null,
+            description: null,
+        },
+        decline: null,
+        ok: null,
+        poweredBy: null,
+        privacyPolicy: {
+            name: null,
+            text: null,
+        },
+        purposeItem: {
+            service: null,
+            services: null,
+        },
+        purposes: {
+            functional: {
+                description: null,
+                title: null,
+            },
+            analytics: {
+                description: null,
+                title: null,
+            },
+        },
+        save: null,
+        service: {
+            disableAll: {
+                description: null,
+                title: null,
+            },
+            optOut: {
+                description: null,
+                title: null,
+            },
+            purpose: null,
+            purposes: null,
+            required: {
+                description: null,
+                title: null,
+            },
+        },
+    },
+};
+var allRequired = true;
+klaroConfig.services.forEach(function(service) {
+    if (!service.required) {
+        allRequired = false;
+    }
+    if (service.name === 'contrast') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+    else if (service.name === 'cookie_settings') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+    else if (service.name === 'google-analytics') {
+        service.translations = {
+            es: {
+                description: null,
+                title: null,
+            },
+        }
+    }
+});
+
+if (allRequired) {
+    klaroConfig.translations['es'].consentNotice.description = null;
+    klaroConfig.translations['es'].ok = null;
+    klaroConfig.hideDeclineAll = true;
+    klaroConfig.hideLearnMore = true;
+}
+
+</script>
+<script src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
+<script>translations['cookies'] = translations['cookies'] || {};
+    translations['cookies']['cookie_settings'] = '';</script>
+
+
 
 
 
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Ocultar';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20240718090229'></script>
+<script src='/site/assets/js/sdg.js?v=20240718092305'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20240718090229"></script><script>
+    <script src="/site/assets/js/custom.js?v=20240718092305"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
