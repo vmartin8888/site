@@ -2132,6 +2132,14 @@
           "keywords": "",
           "href": "/site/17-19-2/",
           "status": "notstarted"
+        },
+        {
+          "id": "17-19-2a",
+          "title": "global_indicators.17-19-2a-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/17-19-2a/",
+          "status": "complete"
         }]
     }
   }]
