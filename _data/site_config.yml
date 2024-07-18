@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Aragón
+  adjective: Aragonés
 create_goals:
   previous_next_links: false
   goal_content_heading: ''
@@ -50,15 +50,21 @@ data_edit_url: data
 data_fields:
   units: ''
   series: ''
-date_formats: []
+date_formats:
+  - type: standard
+    language: es
+    format: '%d de %b de %Y'
+  - type: standard
+    language: en
+    format: '%b %d, %Y'
 disclaimer:
   phase: ''
   message: ''
-  hidden: false
+  hidden: true
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: iaest@aragon.es
+  suggestions: iaest@aragon.es
+  functional: iaest@aragon.es
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
@@ -255,4 +261,4 @@ time_series_attributes:
 use_new_config_forms: false
 validate_indicator_config: false
 validate_site_config: false
-x_axis_label: ''
+x_axis_label: Años
