@@ -48,8 +48,8 @@ custom_js:
   - /assets/js/custom.js
 data_edit_url: data
 data_fields:
-  units: Units
-  series: Series
+  units: ''
+  series: ''
 date_formats:
   - type: standard
     language: es
@@ -114,7 +114,7 @@ graph_color_set: accessible
 graph_color_list:
   - '#a6192e'
   - '#bfbfbf'
-graph_color_number: 2
+graph_color_number: 0
 graph_title_from_series: true
 header_language_toggle: dropdown
 hide_empty_metadata: true
@@ -189,12 +189,6 @@ menu:
     dropdown: []
   - path: /reporting-status
     translation_key: menu.reporting_status
-    dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
-  - path: /faq
-    translation_key: menu.faq
     dropdown: []
   - path: /about
     translation_key: menu.about
