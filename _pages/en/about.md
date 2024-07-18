@@ -1,8 +1,8 @@
 ---
 title: About
-permalink: /es/about/
+language: en
+permalink: /about/
 layout: page
-language: es
 ---
 
 Los [Objetivos de Desarrollo Sostenible](http://www.un.org/sustainabledevelopment/sustainable-development-goals/) (ODS) son un llamado universal a la acción para:
