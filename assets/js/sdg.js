@@ -1242,7 +1242,7 @@ $(document).ready(function() {
 });
 opensdg.chartColors = function(indicatorId) {
   var colorSet = "accessible";
-  var numberOfColors = 2;
+  var numberOfColors = 0;
   var customColorList = ["#a6192e","#bfbfbf"];
 
   this.goalNumber = parseInt(indicatorId.slice(indicatorId.indexOf('_')+1,indicatorId.indexOf('-')));
