@@ -20,7 +20,7 @@ breadcrumbs:
     - path: /news
       label: menu.updates
 cookie_consent_form:
-  enabled: false
+  enabled: true
 country:
   name: Aragón
   adjective: Aragonés
@@ -72,10 +72,6 @@ footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
 frontpage_cards:
@@ -85,21 +81,21 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: Descargar Atlas
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+      En un solo documento en formato PDF, estas ordenados todos los indicadores
     include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
+    button_label: Descargar Atlas
+    button_link: /descargas/atlas/Atlas_Indicadores_ODS.pdf
     rule_color: ''
-  - title: Nam vestibulum
+  - title: Acerca IAEST
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+      Instituto Aragonés de Estadística (IAEST), tiene como misión la
+                  elaboración y difusión de información estadísticas de la Comunidad
+                  Autónoma de Aragón.
     include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
+    button_label: Más info en www.aragon.es
+    button_link: 'https://www.aragon.es/-/acerca-del-iaest'
     rule_color: ''
 frontpage_goals_grid:
   title: frontpage.heading_short
@@ -148,7 +144,6 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - en
   - es
 languages_public: []
 logos: []
