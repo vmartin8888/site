@@ -20,4 +20,4 @@ remote_data_prefix: "https://ods-aragon.github.io/ods-data"
 
 analytics:
   # For production, you likely want to enter a Google Analytics code below.
-  ga_prod: ''
+  ga_prod: 'GA4|3724403959'
