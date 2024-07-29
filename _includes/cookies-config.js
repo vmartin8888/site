@@ -100,14 +100,14 @@ var klaroConfig = {
             This can e.g. be useful for defining a fallback privacy policy URL.
         */
         zz: {
-            privacyPolicyUrl: '/privacy',
+            privacyPolicyUrl: '/translations/es',
 
         }
         es: {
             /*
             You can specify a language-specific link to your privacy policy here.
             */
-            privacyPolicyUrl: '/privacy',
+            privacyPolicyUrl: 'translations/es',
             consentNotice: {
                 description: 'Recabamos su consentimiento para utilizacion de cookie',
             },
@@ -140,7 +140,7 @@ var klaroConfig = {
             },
         },
         en: {
-            privacyPolicyUrl: '/privacy',
+            privacyPolicyUrl: '/translations/en',
             consentModal: {
                 description:
                     'Here you can see and customize the information that we collect about you. ' + 
