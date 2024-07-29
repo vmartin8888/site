@@ -61,7 +61,7 @@ var klaroConfig = {
     manager modal and not allow the user to close it before having actively
     consented or declined the use of third-party services.
     */
-    mustConsent: false,
+    mustConsent: true,
 
     /*
     Setting 'acceptAll' to 'true' will show an "accept all" button in the notice and
@@ -100,14 +100,14 @@ var klaroConfig = {
             This can e.g. be useful for defining a fallback privacy policy URL.
         */
         zz: {
-            privacyPolicyUrl: '/translations/es',
+            privacyPolicyUrl: '/site/translations/es',
 
         }
         es: {
             /*
             You can specify a language-specific link to your privacy policy here.
             */
-            privacyPolicyUrl: 'translations/es',
+            privacyPolicyUrl: '/site/translations/es',
             consentNotice: {
                 description: 'Recabamos su consentimiento para utilizacion de cookie',
             },
@@ -140,7 +140,7 @@ var klaroConfig = {
             },
         },
         en: {
-            privacyPolicyUrl: '/translations/en',
+            privacyPolicyUrl: '/site/translations/en',
             consentModal: {
                 description:
                     'Here you can see and customize the information that we collect about you. ' + 
