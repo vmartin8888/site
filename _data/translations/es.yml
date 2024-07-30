@@ -1,8 +1,3 @@
-consent_form:
-  title: "Formulario de Consentimiento"
-  description: "Por favor, acepte los términos para continuar."
-  accept_button: "Aceptar"
-  decline_button: "Rechazar"  # Asegúrate de que esta línea esté presente
 # Warning, this file is partially automatically generated!
 acceptAll: Aceptar todas
 acceptSelected: Aceptar seleccionadas
