@@ -37,3 +37,14 @@ exclude:
   - README.md
   - LICENSE
 
+# Language configuration
+language: es
+
+# Data files
+defaults:
+  -
+    scope:
+      path: ""
+      type: "translations"
+    values:
+      data: translations/es
