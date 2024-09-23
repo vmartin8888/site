@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240923080115">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20240923092951">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -441,60 +441,60 @@ var klaroConfig = {
   klaroConfig.lang = 'es';
 klaroConfig.translations = {
     es: {
-        acceptAll: null,
-        acceptSelected: null,
-        close: null,
+        acceptAll: "Aceptar todas",
+        acceptSelected: "Aceptar seleccionadas",
+        close: "Cerrar",
         consentModal: {
-            description: null,
-            title: null,
+            description: "Aquí puedes cambiar qué cookies estás de acuerdo en que usemos.",
+            title: "Configuración de cookies",
         },
         consentNotice: {
-            changeDescription: null,
-            description: null,
-            learnMore: null,
-            testing: null,
+            changeDescription: "Las cookies utilizadas en este sitio han cambiado desde tu última visita, por favor renueva tu consentimiento.",
+            description: "Utilizamos algunas cookies esenciales para que este servicio funcione. También nos gustaría utilizar {purposes} para entender cómo utilizas el servicio y mejorar.",
+            learnMore: "Ver cookies",
+            testing: "¡Modo de prueba!",
         },
         contextualConsent: {
-            acceptAlways: null,
-            acceptOnce: null,
-            description: null,
+            acceptAlways: "Siempre",
+            acceptOnce: "Sí",
+            description: "¿Quieres cargar contenido externo proporcionado por {title}?",
         },
-        decline: null,
-        ok: null,
-        poweredBy: null,
+        decline: "Rechazar cookies adicionales",
+        ok: "Aceptar cookies adicionales",
+        poweredBy: "Realizado con Klaro!",
         privacyPolicy: {
-            name: null,
-            text: null,
+            name: "política de privacidad",
+            text: "Para obtener más información, lee nuestra política de privacidad.",
         },
         purposeItem: {
-            service: null,
-            services: null,
+            service: "servicio",
+            services: "servicios",
         },
         purposes: {
             functional: {
-                description: null,
-                title: null,
+                description: "Las cookies esenciales mantienen tu información segura y realizan funciones como recordar tus preferencias y elecciones mientras usas el sitio web. Siempre deben estar activadas.",
+                title: "Cookies esenciales",
             },
             analytics: {
-                description: null,
-                title: null,
+                description: "Estos servicios recogen información sobre cómo utilizas el sitio web. Usamos estos datos para ayudar a mejorar el sitio.",
+                title: "Cookies de análisis",
             },
         },
-        save: null,
+        save: "Guardar",
         service: {
             disableAll: {
-                description: null,
-                title: null,
+                description: "Usa este interruptor para activar o desactivar todos los servicios.",
+                title: "Activar o desactivar todos los servicios",
             },
             optOut: {
-                description: null,
-                title: null,
+                description: "Este servicio se carga por defecto (pero puedes darte de baja)",
+                title: "(darse de baja)",
             },
-            purpose: null,
-            purposes: null,
+            purpose: "propósito",
+            purposes: "propósitos",
             required: {
-                description: null,
-                title: null,
+                description: "Este servicio siempre es necesario",
+                title: "(siempre requerido)",
             },
         },
     },
@@ -507,32 +507,32 @@ klaroConfig.services.forEach(function(service) {
     if (service.name === 'contrast') {
         service.translations = {
             es: {
-                description: null,
-                title: null,
+                description: "Mantiene el estado activo de los servicios de accesibilidad",
+                title: "Modo de accesibilidad",
             },
         }
     }
     else if (service.name === 'cookie_settings') {
         service.translations = {
             es: {
-                description: null,
-                title: null,
+                description: "Guarda tus preferencias de consentimiento de cookies",
+                title: "Configuración de cookies",
             },
         }
     }
     else if (service.name === 'google-analytics') {
         service.translations = {
             es: {
-                description: null,
-                title: null,
+                description: "Recoge información sobre visitas a la página usando Google Analytics",
+                title: "Google Analytics",
             },
         }
     }
 });
 
 if (allRequired) {
-    klaroConfig.translations['es'].consentNotice.description = null;
-    klaroConfig.translations['es'].ok = null;
+    klaroConfig.translations['es'].consentNotice.description = "Utilizamos algunas cookies esenciales para que este servicio funcione. Siempre deben estar activadas.";
+    klaroConfig.translations['es'].ok = "OK";
     klaroConfig.hideDeclineAll = true;
     klaroConfig.hideLearnMore = true;
 }
@@ -540,7 +540,7 @@ if (allRequired) {
 </script>
 <script src="https://cdn.kiprotect.com/klaro/v0.7/klaro-no-css.js"></script>
 <script>translations['cookies'] = translations['cookies'] || {};
-    translations['cookies']['cookie_settings'] = '';</script>
+    translations['cookies']['cookie_settings'] = 'Configuración de cookies';</script>
 
 
 
@@ -554,12 +554,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20240923080115'></script>
+<script src='/site/assets/js/sdg.js?v=20240923092951'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20240923080115"></script><script>
+    <script src="/site/assets/js/custom.js?v=20240923092951"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
